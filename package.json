@@ -5,11 +5,13 @@
   "main": "basic.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon basic.js"
+    "dev": "nodemon basic.js",
+    "chat": "nodemon chat.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
